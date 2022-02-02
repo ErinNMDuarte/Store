@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image:url("images/fondo2.jpg");
+	background-size: cover;
+	background-position: inherit;
+	background-size: 100vw 100vh;
+	background-attachment:fixed;
+	margin:0;
+}
+	
+
+
+.ellogo{
+	
+	background-image: url("images/login1.png");
+	background-size:200px;
+	background-repeat:no-repeat;
+	display:flex;
+	background-position:left;
+	margin-left:20.25%;
+	margin-top:20px;
+	justify-content:center;
+	width: 35%;
+	
+}
+
+h1{	
+	
+    color:0;
+    font-family: arial;
+    font-size: 30px;
+    height: 40px;
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+ 	background-size: cover ;
+    
+
+}
+	
+	
+
+fieldset{
+	
+	background-color: rgba(0,0,10,0.4);
+    background-color: 0;
+    width: 25%;
+    margin-right: auto;
+    
+    height: 220px;
+    margin-left: 11.5%;
+    
+    margin-top:16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    
+
+}
+input{
+	
+	background-color:#fafafaee;
+	font-family:serif;
+    display: block;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+    border-radius: 20px;
+    padding: 7px;
+
+    
+}
+
+form{
+	
+	
+    background-color: 0;
+    width: 100%;
+    margin:auto;
+    
+  
+}
+
+  
+@font-face {
+  font-family: "cream";
+  src: url("fonts/letra2.ttf"); 
+  
+  }
+
+.titulo{
+	
+   
+    padding: 5px;
+    font-family: "cream";
+    font-size: 50px;
+    color:#faf600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btnlog{
+	
+	background-color:#FFE419;
+    width: 100px;
+    font-family: "cream";
+    font-size: 19px;
+    color:#2C00FA;
+    padding: 5px;
+
+    
+}
+
+
+.btn{
+	
+
+	display: flex;
+	flex-wrap: wrap;
+
+	
+}
+
+.btnlog:hover{	
+	cursor:pointer;	
+}
+
+.btnlog:active{
+	padding: 5px;
+    background: #2C00FA;
+
+	
+}
+

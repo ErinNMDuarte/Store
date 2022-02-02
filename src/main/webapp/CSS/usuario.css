@@ -1,0 +1,213 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image:url("images/usuario.jpg");
+	background-size: cover;
+	background-position: inherit;
+    background-size: 100vw 100vh;
+	background-attachment:fixed;
+	margin:0;
+}
+
+
+.ellogo{
+	
+	background-image: url("images/login1.png");
+	background-size:200px;
+	background-repeat:no-repeat;
+	display:flex;
+	background-position:left;
+	margin-left:20.25%;
+	margin-top:20px;
+	justify-content:center;
+	width: 35%;
+	
+}
+
+h1{	
+	
+    color:0;
+    font-family: arial;
+    font-size: 100px;
+    height: 40px;
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+ 	background-size: cover ;
+ }
+
+
+#links{
+	
+    color:rgb(255, 255, 255);
+    width:37%;
+    display:flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    justify-content: center;
+
+}
+.encabezado{
+	
+    background-color: 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+
+}
+
+    
+
+li{
+	
+	
+    display: inline;
+	font-family: "cream";
+    font-size: 150%;
+    width: 100%;
+    justify-content: center;
+
+}
+
+a{
+	
+    
+    margin:auto;
+    margin-left:20 px;
+    text-decoration: none;
+    width: 60%;
+    margin-right: auto;
+   
+}
+
+
+
+.nav{
+	
+	
+    width: 10%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: list;
+  
+    
+}
+    
+
+
+
+
+
+    
+    
+fieldset{
+	
+	background-color: rgba(0,0,10,0.4);
+    background-color: 0;
+    width: 35%;
+    height: 220px;
+    margin-left: 11%;
+    margin-right: auto;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border:none;
+   
+    
+
+}
+
+
+input{
+	
+	background-color:#ebe8e8;
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+  	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    border:none;
+  
+}
+
+form{
+	
+    background-color: 0;
+    width: 400%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+	
+    background-color: 0;
+    width: 10%;
+    display: flex;
+    
+    
+    padding: 5px;
+    font-family:serif;
+    font-size: 40px;
+}
+
+@font-face {
+  font-family: "cream";
+  src: url("fonts/letra2.ttf");
+}
+
+
+.btnin{
+	
+	background-color:#FFE419;
+    border: 10px;
+    width: 20%;
+	font-family: "cream";
+    font-size: 15px;
+    color:#2C00FA;
+    justify-content: center;
+}
+
+
+
+.us{
+	
+    background-color: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;	
+}
+
+
+.btnin:hover{	
+	cursor:pointer;	
+}
+
+.btnin:active{
+	padding: 5px;
+    background: #2C00FA;
+
+	
+}
+
+
+

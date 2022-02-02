@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+
+
+.ellogo{
+	
+	background-image: url("images/login1.png");
+	background-size:200px;
+	background-repeat:no-repeat;
+	display:flex;
+	background-position:left;
+	margin-left:20.25%;
+	margin-top:20px;
+	justify-content:center;
+	width: 35%;
+	
+}
+
+
+#links{
+	
+    background-color: 0;
+    width: 71%;
+    margin-left: auto;
+    margin-top: 5px;
+
+}
+.encabezado{
+	
+    background-color: 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+
+}
+h1{	
+	
+    color:0;
+    font-family: arial;
+    font-size: 30px;
+    height: 40px;
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+ 	background-size: cover ;
+    
+
+}
+
+ul{
+    background-color: 0;
+    width: 70%;
+    margin-left: auto;
+
+
+}
+li{
+	
+	
+    background-color:0;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    width: 100%;
+
+}
+
+a{
+	
+    background-color:0;
+    text-decoration: none;
+    width: 80%;
+    margin-right: 2px;
+    margin-left: 2px;
+}
